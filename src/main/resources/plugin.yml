@@ -1,0 +1,7 @@
+name: TrayzAntiFastBreak
+main: pl.trayz.antifastbreak.AntiFastBreakPlugin
+version: 1.0
+author: Trayz
+
+commands:
+  antifastbreak:

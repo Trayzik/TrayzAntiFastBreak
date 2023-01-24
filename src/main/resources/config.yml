@@ -1,0 +1,14 @@
+FastBreak:
+  enabled: true
+  warnsToPunish: 3 # How many warns to punish, dissalow block break
+  commandsOnPunish: [ "say &6FastBreak &b%PLAYER% &8(&b%PING%ms&8) &8[&b3&7/&b3&8] &b%VALUE%" ] # &c%PLAYER% will be replaced with the player's name, %PING% player ping, %TPS% server TPS, %WARN% warn number, %VALUE% speedmine value
+  disallowBlockBreakWithPunish: true # If true, the player will not be able to break blocks while punished
+  commandsOnWarn: [ "say &6FastBreak &b%PLAYER% &8(&b%PING%ms&8) &8[&b%WARN%&7/&b3&8] &b%VALUE%" ]
+  timeToResetWarns: 1000 # How many milliseconds to reset warns
+  maxPlayerPing: 300 # Max player ping to punish
+  minTps: 18.0 # Minimum TPS to punish
+  minCheckValue: 1100 # Min speedmine value to check speedmine
+
+  blocks:
+    STONE:
+      hardness: 1.5
